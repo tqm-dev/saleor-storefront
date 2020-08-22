@@ -84,7 +84,7 @@ module.exports = ({ sourceDir, distDir }) => ({
   },
   output: {
     path: distDir,
-    publicPath: "/storefront-assets/",
+    publicPath: "/",
   },
   plugins: [
     new CleanWebpackPlugin({

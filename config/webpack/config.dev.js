@@ -2,6 +2,9 @@ const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 const HotModulePlugin = require("webpack").HotModuleReplacementPlugin;
 
 module.exports = ({ sourceDir, distDir }) => ({
+  devServer: {
+    index: 'storefront.html',
+  },
   output: {
     filename: "js/[name].js"
   },
