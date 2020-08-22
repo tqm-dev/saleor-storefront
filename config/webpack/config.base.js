@@ -92,7 +92,7 @@ module.exports = ({ sourceDir, distDir }) => ({
     }),
     new HtmlWebpackPlugin({
       API_URI: process.env.API_URI,
-      filename: `${distDir}/index.html`,
+      filename: `${distDir}/storefront.html`,
       template: `${sourceDir}/index.html`,
     }),
     new ForkTsCheckerWebpackPlugin({

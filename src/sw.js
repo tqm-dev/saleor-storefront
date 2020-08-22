@@ -15,7 +15,7 @@ workbox.routing.registerRoute(
 );
 
 workbox.routing.registerNavigationRoute(
-  workbox.precaching.getCacheKeyForURL("/index.html"),
+  workbox.precaching.getCacheKeyForURL("/storefront.html"),
   {
     blacklist: [
       new RegExp("/graphql"),

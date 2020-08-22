@@ -1,4 +1,4 @@
-importScripts("/precache-manifest.a6a39874e53cf73f4d8c791a25b06ada.js", "https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
+importScripts("/precache-manifest.c8ae7fb4f330fe0c66aa363de4d7f0a3.js", "https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 /* eslint-disable no-undef,no-restricted-globals */
 
@@ -17,7 +17,7 @@ workbox.routing.registerRoute(
 );
 
 workbox.routing.registerNavigationRoute(
-  workbox.precaching.getCacheKeyForURL("/index.html"),
+  workbox.precaching.getCacheKeyForURL("/storefront.html"),
   {
     blacklist: [
       new RegExp("/graphql"),

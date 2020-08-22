@@ -2,6 +2,6 @@
   "root": "dist/",
   "https_only": true,
   "routes": {
-    "/**": "index.html"
+    "/**": "storefront.html"
   }
 }
